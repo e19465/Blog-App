@@ -1,0 +1,95 @@
+.sidebar{
+    flex: 3;
+    height: 1000px;
+    background-color: #fdfbfb;
+    /* margin: 20px; */
+    /* padding-bottom: 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 10px; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar-item{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+.sidebar-title{
+    margin: 10px;
+    padding: 5px; 
+    display: block;
+    color: #222;
+    font-weight: 600;
+    width: 80%;
+    text-align: center;
+    /* background-color: red; */
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: var(--VARELA-ROUND-FF);
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+}
+
+.sidebar-imag-container{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-text{
+    /* background-color: blue; */
+    padding: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.sidebar-ul{
+    list-style: none;
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+    /* background-color: red; */
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.sidebar-li{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 15px;
+    font-family: var(--VARELA-ROUND-FF);
+    /* background-color: yellow; */
+}
+
+.sidebar-social{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* background-color: red; */
+}
+
+.sidebarSocialIcon{
+    color: #444;
+    font-size: 25px;
+    margin-right: 20px;
+}

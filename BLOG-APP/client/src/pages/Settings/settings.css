@@ -1,0 +1,116 @@
+.settings{
+    display: flex;
+}
+
+.settings-wrapper{
+    flex: 9;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-pic-update-form{
+    padding-left: 20px;
+}
+
+.update-btn-pp{
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #088178;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.sidebar-wrapper{
+    flex: 3;
+}
+
+.sett-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+.sett-update-title{
+    font-size: 25px;
+    color: midnightblue;
+    text-shadow: 0 0 15px dodgerblue;
+}
+
+.sett-delete-title{
+    font-size: 18px;
+    color: red;
+    text-shadow: 0 0 15px orange;
+    cursor: pointer;
+}
+
+.sett-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.sett-form-pic{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sett-pp{
+    width: 200px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.sett-pp-icon {
+    background-color: coral;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sett-update-btn,
+.sett-inputs{
+    width: 60%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid darkgoldenrod;
+}
+
+.sett-update-btn{
+    background-color: #088178;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.sett-update-btn:hover{
+    color: darkblue;
+    background-color: lightblue;
+}
+
+.update-text-p{
+    text-align: center;
+    font-size: 17px;
+    color: darkblue;
+    padding: 10px;
+}

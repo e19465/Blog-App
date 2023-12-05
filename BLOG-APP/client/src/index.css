@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Varela&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    /* FONT FAMILY */
+    --JOSEFIN-FF: 'Josefin Sans', sans-serif;
+    --LORA-FF: 'Lora', serif;
+    --VARELA-FF: 'Varela', sans-serif;
+    --VARELA-ROUND-FF: 'Varela Round', sans-serif;
+  }
+
+  #root{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .App {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .Link{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: var(--VARELA-ROUND-FF);
+    color: #444;
+  }

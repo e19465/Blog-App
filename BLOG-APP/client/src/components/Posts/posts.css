@@ -1,0 +1,12 @@
+.posts{
+    flex: 9;
+    background-color: rgb(230, 230, 250);
+    margin: 0 40px;
+    padding: 0 40px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}

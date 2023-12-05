@@ -1,0 +1,22 @@
+.home{
+    margin-top: 50px;
+    display: flex;
+    height: 1000px;
+    overflow:hidden;
+}
+
+.posts-container{
+    flex: 9;
+    /* display: grid; */
+    overflow-y: scroll;
+    /* align-items: stretch; */
+}
+
+.posts-container::-webkit-scrollbar{
+    display: none;
+}
+
+.sidebar-container{
+    flex: 3;
+    height: 100%;
+}
